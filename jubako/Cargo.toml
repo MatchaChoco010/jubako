@@ -1,0 +1,18 @@
+[package]
+name = "jubako"
+version = "0.1.0"
+edition = "2021"
+
+
+[dependencies]
+anyhow = "1.0.68"
+axum = { version = "0.6.1", features = ["ws"] }
+lightningcss = "1.0.0-alpha.38"
+mime_guess = "2.0.4"
+parking_lot = "0.12.1"
+rust-embed = "6.4.2"
+serde = { version = "1.0.151", features = ["derive"] }
+serde_json = "1.0.91"
+tokio = { version = "1.23.0", features = ["full"] }
+typeshare = "1.0.0"
+uuid = { version = "1.2.2", features = ["v4", "serde"] }
